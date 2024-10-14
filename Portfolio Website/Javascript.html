@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="Port Website.html">Home</a>
+      <a class="active" href="#news">Javascript</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+
+    <p id = "test" style = "color:white; padding:16px 16px;"></p>
+    <div id = "check" class="button" >
+     <a href = "dude"> Contact Me</a> 
+
+    </div>
+    <svg width = "1000" height = "1000" id = "mydiv">
+      <mask id = "mymask">
+        <circle id = "mycirc" fill = "#ffffff" cx = "100" cy = "100" r = "100" onClick = "dragElement(document.getElementById(this.id))"></circle>
+
+      </mask>
+    <image href = "images.jpg" mask = "url(#mymask)" width = "1000" height = "1000"></image>
+    
+    </svg>
+    <script src = "magnifyingGlass.js"></script>
+     <div class = "border"></div>
+  </body>
+</html>
